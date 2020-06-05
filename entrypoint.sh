@@ -25,6 +25,3 @@ echo "tag is $tagName"
 git log $tagName.. --pretty=format:'- %cd %an \n  %s\n \n' --date=format:'%Y-%m-%d %H:%M:%S' > path
 
 fi
-
-# echo "Committed log: $log"
-# echo ::set-output name=log::$log

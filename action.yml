@@ -14,9 +14,7 @@ inputs:
   path:
     description: 'Log path'
     required: false
-outputs:
-  log:
-    description: 'git logs'
+    
 runs:
   using: 'docker'
   image: 'Dockerfile'
