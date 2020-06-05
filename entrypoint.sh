@@ -18,5 +18,5 @@ log=$(git log $tagName.. --pretty=format:'- %cd %an \n  %s\n \n' --date=format:'
 
 fi
 
-echo $log
+echo "Committed log: $log"
 echo ::set-output name=log::$log
