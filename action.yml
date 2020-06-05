@@ -11,7 +11,7 @@ inputs:
   value:
     description: 'Specify git value'
     required: false
-  value:
+  path:
     description: 'Log path'
     required: false
 outputs:
