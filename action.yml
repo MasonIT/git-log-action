@@ -11,6 +11,9 @@ inputs:
   value:
     description: 'Specify git value'
     required: false
+  value:
+    description: 'Log path'
+    required: false
 outputs:
   log:
     description: 'git logs'
@@ -19,4 +22,5 @@ runs:
   image: 'Dockerfile'
   args:
     - ${{ inputs.type }}
-    - ${{ inputs.value}}
+    - ${{ inputs.value }}
+    - ${{ inputs.path }}
